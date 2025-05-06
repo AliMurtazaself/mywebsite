@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaad Web-tech</title>
+  <style>
+    .background {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 100vh;
+      background-image: url('./photo/under.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1;
+      filter: blur(8px);
+    }
+
+    .content {
+      color: white;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .content a {
+      color: white;
+    }
+
+    .content a:hover {
+      color: blue;
+    }
+
+    .content h1 {
+      font-size: 60px;
+      color: rgba(241, 49, 49, 0.945);
+    }
+
+    .content p {
+      font-size: 20px;
+    }
+
+    /*code for Responsive*/
+    @media only screen and (max-width: 770px) {
+      .content h1 {
+        font-size: 40px;
+      }
+
+      .content p {
+        font-size: 17px;
+      }
+
+      .content a {
+        font-size: 17px;
+      }
+
+      .content img {
+        width: 300px;
+        height: 130px;
+      }
+
+      .background {
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    @media only screen and (max-width: 468px) {
+      .content h1 {
+        font-size: 30px;
+      }
+
+      .content p {
+        font-size: 16px;
+      }
+
+      .content a {
+        font-size: 16px;
+      }
+
+      .content img {
+        width: 250px;
+        height: 110px;
+      }
+
+      .background {
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    @media only screen and (max-width:385px) {
+      .content h1 {
+        font-size: 22px;
+      }
+
+      .content p {
+        font-size: 14px;
+      }
+
+      .content a {
+        font-size: 14px;
+      }
+
+      .content img {
+        width: 200px;
+        height: 90px;
+      }
+
+      .background {
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    /*Responsive END*/
+  </style>
+</head>
+
+<body>
+  <div class="background"></div>
+
+  <div class="content">
+    <div><img src="./photo/main.jpg" alt="No image" width="550px" height="250px"></div>
+    <h1>Site is Under Maintenance</h1>
+    <p>Thank You for your Patience.</p>
+    <a href="https://udc.netlify.app/">
+      < Back to Website </a>
+  </div>
+
+</body>
+
+</html>
